@@ -37,12 +37,6 @@ const Verify = () => {
 
     }
 
-    // useEffect(() => {
-    //     if (token, appointmentId, success) {
-    //         verifyStripe()
-    //     }
-    // }, [token])
-
     useEffect(() => {
         if (token && appointmentId && success) {
           verifyStripe();
